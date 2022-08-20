@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    margin-top: 50px;
 }
 
 h1{
@@ -8,7 +9,8 @@ h1{
 }
 h2{
    font-weight: bloder;
-   color: magenta 
+   color: magenta;
+   margin-bottom: 50px;
 }
 h3{
     margin-top: 35px;
@@ -16,6 +18,7 @@ h3{
 h4{
     margin-top: 50px;
     color: royalblue;
+    align-items: center;
 }
 hr{
     size: 10px;

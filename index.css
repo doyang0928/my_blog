@@ -16,5 +16,21 @@ h4{
 hr{
     size: 10px;
 }
-
-
+body{
+    background-color: lightyellow;
+}
+#index_total {
+    background-color: lightblue;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid blue;
+    width: 900px;
+    margin: 100px auto;
+}
+#index_line{
+    height : 400px;
+    width: 0px;
+    background-color: white;
+    border-left : thick solid #32a1ce;
+}
