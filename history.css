@@ -4,12 +4,12 @@ body{
 }
 
 h1{
-    color: rgb(43, 11, 140);
+    color: green;
     margin-bottom: 35px;
 }
 h2{
    font-weight: bloder;
-   color: magenta;
+   color: rgb(15, 66, 15);
    margin-bottom: 50px;
 }
 h3{
@@ -17,9 +17,49 @@ h3{
 }
 h4{
     margin-top: 50px;
-    color: royalblue;
+    color: rgb(255, 132, 0);
     align-items: center;
 }
 hr{
     size: 10px;
+}
+
+body{
+    background-color: aqua;
+    
+
+}
+.link:visited{
+    color:rgb(255, 0, 0);
+}
+#history_total {
+    background-image: url(back2.jpg);
+    background-size: cover;
+    background-color: lightyellow;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 4px solid gray;
+    width: 900px;
+    margin: 100px auto;
+    text-align: center;
+}
+#history_line{
+    height : 480px;
+    width: 0px;
+    background-color: white;
+    border-left : thick solid gray;
+}
+#skills{
+    justify-content: center;
+}
+#history{
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+#history{
+    color:white;
+    font-weight: bold;
 }
